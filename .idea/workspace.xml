@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d97ec2c5-90fe-43e5-9bb0-3b8b02f89c4b" name="默认更改列表" comment="" />
+    <list default="true" id="d97ec2c5-90fe-43e5-9bb0-3b8b02f89c4b" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ConverseThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestBatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AddrConversion/C_Thread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AddrConversion/C_Thread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AddrConversion/ConverseAddr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AddrConversion/ConverseAddr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AddrConversion/META-INF/AddrConversion.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AddrConversion/P_Thread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AddrConversion/P_Thread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C_Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C_Thread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConverseAddr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConverseAddr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P_Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P_Thread.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,21 +28,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ConverseAddr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1550">
-              <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;method#httpURLConectionGET#0;class#ConverseAddr#0" />
-              </folding>
+            <state relative-caret-position="325">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/C_Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="300">
+              <caret line="24" column="67" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,10 +49,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/P_Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+            <state relative-caret-position="203">
+              <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ConverseThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Addr_Converse#0;class#ConverseThread#0" />
+                <element signature="method#getAddress#0;class#ConverseThread#0" />
+                <element signature="method#getAddressId#0;class#ConverseThread#0" />
+                <element signature="method#writeAddress#0;class#ConverseThread#0" />
+                <element signature="method#httpURLConectionGET#0;class#ConverseThread#0" />
+                <element signature="method#httpURLConectionGET#1;class#ConverseThread#0" />
               </folding>
             </state>
           </provider>
@@ -69,6 +94,9 @@
       <find>100975922149260443</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -78,9 +106,11 @@
         <option value="$PROJECT_DIR$/src/Consumer.java" />
         <option value="$PROJECT_DIR$/src/MyStack.java" />
         <option value="$PROJECT_DIR$/src/TestOkhttp.java" />
+        <option value="$PROJECT_DIR$/src/TestBatch.java" />
         <option value="$PROJECT_DIR$/src/ConverseAddr.java" />
-        <option value="$PROJECT_DIR$/src/C_Thread.java" />
         <option value="$PROJECT_DIR$/src/P_Thread.java" />
+        <option value="$PROJECT_DIR$/src/C_Thread.java" />
+        <option value="$PROJECT_DIR$/src/ConverseThread.java" />
       </list>
     </option>
   </component>
@@ -93,11 +123,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="1" />
-    <option name="width" value="1067" />
-    <option name="height" value="1046" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="766" />
+    <option name="y" value="-1" />
+    <option name="width" value="1157" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -111,18 +141,24 @@
               <item name="AddrConversion" type="b2602c69:ProjectViewProjectNode" />
               <item name="AddrConversion" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AddrConversion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AddrConversion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/TransferDemo/build.gradle" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -152,21 +188,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOkhttp.test12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBatch.httpURLConectionGET" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AddrConversion" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestOkhttp" />
-      <option name="METHOD_NAME" value="test12" />
+      <option name="MAIN_CLASS_NAME" value="TestBatch" />
+      <option name="METHOD_NAME" value="httpURLConectionGET" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOkhttp.test_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestOkhttp.test12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AddrConversion" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestOkhttp" />
-      <option name="METHOD_NAME" value="test_1" />
+      <option name="METHOD_NAME" value="test12" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,10 +231,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ConverseAddr" />
+        <item itemvalue="JUnit.TestBatch.httpURLConectionGET" />
         <item itemvalue="JUnit.TestOkhttp.test_3" />
         <item itemvalue="JUnit.TestOkhttp.test_2" />
         <item itemvalue="JUnit.TestOkhttp.test12" />
-        <item itemvalue="JUnit.TestOkhttp.test_1" />
       </list>
     </recent_temporary>
   </component>
@@ -227,43 +263,48 @@
       <workItem from="1564564333349" duration="1234000" />
       <workItem from="1564565740194" duration="43000" />
       <workItem from="1564653642919" duration="301000" />
+      <workItem from="1564726536213" duration="23000" />
+      <workItem from="1564726622708" duration="16000" />
+      <workItem from="1565677551810" duration="11765000" />
+      <workItem from="1565743179591" duration="19000" />
+      <workItem from="1566615251487" duration="16404000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestOkhttp_test_2 - 2019.07.25 at 20h 10m 50s.xml">
-      <configuration name="TestOkhttp.test_2" configurationId="JUnit" />
+    <history-entry file="TestBatch_httpURLConectionGET - 2019.08.13 at 17h 24m 13s.xml">
+      <configuration name="TestBatch.httpURLConectionGET" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOkhttp_test_2 - 2019.07.25 at 20h 11m 05s.xml">
-      <configuration name="TestOkhttp.test_2" configurationId="JUnit" />
+    <history-entry file="TestBatch_httpURLConectionGET - 2019.08.13 at 17h 25m 44s.xml">
+      <configuration name="TestBatch.httpURLConectionGET" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOkhttp_test_2 - 2019.07.25 at 20h 11m 23s.xml">
-      <configuration name="TestOkhttp.test_2" configurationId="JUnit" />
+    <history-entry file="TestBatch_httpURLConectionGET - 2019.08.13 at 17h 28m 10s.xml">
+      <configuration name="TestBatch.httpURLConectionGET" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOkhttp_test_2 - 2019.07.25 at 20h 16m 03s.xml">
-      <configuration name="TestOkhttp.test_2" configurationId="JUnit" />
+    <history-entry file="TestBatch_httpURLConectionGET - 2019.08.13 at 17h 28m 28s.xml">
+      <configuration name="TestBatch.httpURLConectionGET" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOkhttp_test_2 - 2019.07.25 at 20h 16m 10s.xml">
-      <configuration name="TestOkhttp.test_2" configurationId="JUnit" />
+    <history-entry file="TestBatch_httpURLConectionGET - 2019.08.13 at 17h 29m 43s.xml">
+      <configuration name="TestBatch.httpURLConectionGET" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOkhttp_test_3 - 2019.07.26 at 09h 42m 43s.xml">
-      <configuration name="TestOkhttp.test_3" configurationId="JUnit" />
+    <history-entry file="TestBatch_httpURLConectionGET - 2019.08.13 at 17h 31m 32s.xml">
+      <configuration name="TestBatch.httpURLConectionGET" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOkhttp_test_3 - 2019.07.26 at 09h 43m 30s.xml">
-      <configuration name="TestOkhttp.test_3" configurationId="JUnit" />
+    <history-entry file="TestBatch_httpURLConectionGET - 2019.08.24 at 11h 12m 34s.xml">
+      <configuration name="TestBatch.httpURLConectionGET" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOkhttp_test_3 - 2019.07.26 at 09h 45m 55s.xml">
-      <configuration name="TestOkhttp.test_3" configurationId="JUnit" />
+    <history-entry file="TestBatch_httpURLConectionGET - 2019.08.24 at 11h 14m 00s.xml">
+      <configuration name="TestBatch.httpURLConectionGET" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOkhttp_test_3 - 2019.07.26 at 09h 49m 45s.xml">
-      <configuration name="TestOkhttp.test_3" configurationId="JUnit" />
+    <history-entry file="TestBatch_httpURLConectionGET - 2019.08.24 at 11h 14m 33s.xml">
+      <configuration name="TestBatch.httpURLConectionGET" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOkhttp_test_3 - 2019.07.26 at 09h 54m 07s.xml">
-      <configuration name="TestOkhttp.test_3" configurationId="JUnit" />
+    <history-entry file="TestBatch_httpURLConectionGET - 2019.08.24 at 11h 53m 39s.xml">
+      <configuration name="TestBatch.httpURLConectionGET" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91358000" />
+    <option name="totallyTimeSpent" value="119585000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,9 +316,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="1" width="1067" height="1046" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23336643" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06823028" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -285,17 +327,18 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="设计器" order="6" />
       <window_info id="Designer" order="7" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882884" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.09673791" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.35352424" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32925472" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.18222722" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.18061674" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32925472" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.36563876" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="调试" order="13" />
@@ -357,21 +400,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConverseAddr.java">
+    <entry file="file://$PROJECT_DIR$/src/TestBatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1550">
-          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#httpURLConectionGET#0;class#ConverseAddr#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P_Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        <state relative-caret-position="421">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -380,10 +412,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/C_Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="300">
+          <caret line="24" column="67" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConverseAddr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P_Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConverseThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Addr_Converse#0;class#ConverseThread#0" />
+            <element signature="method#getAddress#0;class#ConverseThread#0" />
+            <element signature="method#getAddressId#0;class#ConverseThread#0" />
+            <element signature="method#writeAddress#0;class#ConverseThread#0" />
+            <element signature="method#httpURLConectionGET#0;class#ConverseThread#0" />
+            <element signature="method#httpURLConectionGET#1;class#ConverseThread#0" />
           </folding>
         </state>
       </provider>

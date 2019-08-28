@@ -1,47 +1,50 @@
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 
+//写csv文件线程
 public class C_Thread extends Thread {
+
+    private File file = new File("E:\\kx_kq_store1\\kx1000_output.csv");
+    private  BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
+    private long start = System.currentTimeMillis();
+    AtomicInteger count = new AtomicInteger(0);
+
+    public C_Thread() throws IOException {
+        file.setWritable(true);
+    }
 
     @Override
     public void run() {
-        while (true) {
-            String s = null;
-            try {
-                s = ConverseAddr.myQueue.poll(5000, TimeUnit.MILLISECONDS);
+        String s;
+        try {
+            while (true) {
+                s = ConverseAddr.writeQueue.poll(1,TimeUnit.SECONDS);
                 if (s == null) {//当队列中没有元素时
-                    ConverseAddr.cyclicBarrier.await();
+//                    ConverseAddr.cyclicBarrier.await();
                     break;
                 }
-            } catch (Exception e) {
-                e.printStackTrace();
+                writer.write(s);
+                count.getAndIncrement();
+                writer.newLine();
             }
-            Addr_Converse(s);
-            //System.out.println("pop之后:myQueue.size()=" + ConverseAddr.myQueue.size());
-        }
-    }
-
-    public void Addr_Converse(String string) {
-        int dotIndex1 = string.indexOf(",");
-        String addr_id = string.substring(1, dotIndex1 - 1);
-        int dotIndex2 = string.indexOf(",", dotIndex1 + 1);
-        String address = string.substring(dotIndex1 + 2, dotIndex2 - 1).trim();
-        String location = ConverseAddr.httpURLConectionGET(address);
-        String s = "\"" + addr_id + "\",\"" + address + "\",\"" + location + "\"";
-        writeCsv("E:\\kx_kq_store1\\kx1000_output.csv",s);
-    }
-
-    public void writeCsv(String filepath, String addString) {
-        try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter(filepath, true));
-            writer.write(addString);
-            writer.newLine();
-            writer.close();
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
+        }finally {
+            if (writer != null) {
+                try {
+                    writer.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            long end = System.currentTimeMillis();
+            System.out.println("写入"+count.get()+"条数据。耗时：" + (end - start) + "ms");
         }
+
     }
 
 }
